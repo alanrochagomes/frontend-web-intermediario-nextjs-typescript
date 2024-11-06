@@ -1,0 +1,448 @@
+{
+  "config": {
+    "asp": false,
+    "auto_scroll": false,
+    "body": null,
+    "cache": false,
+    "cache_clear": false,
+    "cache_ttl": 86400,
+    "correlation_id": null,
+    "cost_budget": null,
+    "country": "br",
+    "debug": false,
+    "dns": false,
+    "env": "TEST",
+    "extract": null,
+    "extraction_model": "search_engine_results",
+    "extraction_model_custom_schema": null,
+    "extraction_prompt": null,
+    "extraction_template": null,
+    "format": "json",
+    "geolocation": null,
+    "headers": [],
+    "job_uuid": null,
+    "js": null,
+    "js_scenario": null,
+    "lang": null,
+    "log_eviction_date": "2024-11-13 23:15:06",
+    "method": "GET",
+    "origin": "WEB_SCRAPING_API",
+    "os": null,
+    "project": "frontend-web-intermediario-nextjs-typescript",
+    "proxy_pool": "public_datacenter_pool",
+    "render_js": false,
+    "rendering_stage": "",
+    "rendering_wait": 0,
+    "request_id": "c5920ca1-1d68-47ca-8e76-e2a2c82f5493",
+    "retry": true,
+    "schedule_name": null,
+    "screenshot_api_cost": 60,
+    "screenshot_flags": null,
+    "screenshot_resolution": null,
+    "screenshots": null,
+    "session": null,
+    "session_sticky_proxy": true,
+    "ssl": false,
+    "tags": ["player", "project:frontend-web-intermediario-nextjs-typescript"],
+    "timeout": 150000,
+    "url": "https://www.google.com/search?q=programa%C3%A7%C3%A3o",
+    "user_uuid": "05fbe8f3-f7f7-473d-b4ac-6ba9d5293c73",
+    "uuid": "01JC1W57C86600ZAC2BJ49F5V6",
+    "wait_for_selector": null,
+    "webhook_name": null
+  },
+  "context": {
+    "asp": null,
+    "bandwidth_consumed": 0,
+    "bandwidth_images_consumed": 0,
+    "cache": {
+      "entry": null,
+      "state": "MISS"
+    },
+    "cookies": [
+      {
+        "comment": null,
+        "domain": "www.google.com",
+        "expires": null,
+        "http_only": null,
+        "max_age": null,
+        "name": "SOCS",
+        "path": "/",
+        "secure": null,
+        "size": null,
+        "value": "CAISNQgEEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMxMTI4LjA2X3AyGgJlbiACGgYIgMSkqwY",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": "www.google.com",
+        "expires": null,
+        "http_only": null,
+        "max_age": null,
+        "name": "1P_JAR",
+        "path": "/",
+        "secure": null,
+        "size": null,
+        "value": "2024-11-06-23",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": "www.google.com",
+        "expires": null,
+        "http_only": null,
+        "max_age": null,
+        "name": "CONSENT",
+        "path": "/",
+        "secure": null,
+        "size": null,
+        "value": "YES+cb.2024-11-6-23-p0.en+FX+846",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": ".google.com",
+        "expires": "1970-01-01 00:00:00",
+        "http_only": false,
+        "max_age": null,
+        "name": "1P_JAR",
+        "path": "/",
+        "secure": true,
+        "size": 122,
+        "value": "2024-11-06-23",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": ".google.com",
+        "expires": "2025-05-05 23:15:07",
+        "http_only": true,
+        "max_age": null,
+        "name": "AEC",
+        "path": "/",
+        "secure": true,
+        "size": 174,
+        "value": "AVYB7crMgu9HKD3eMcMcnJ8RvOOnkIlF101VU0Hk-3bsEBgvJ3gf8KNR9kU",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": ".google.com",
+        "expires": "2025-05-08 23:15:07",
+        "http_only": true,
+        "max_age": null,
+        "name": "NID",
+        "path": "/",
+        "secure": true,
+        "size": 316,
+        "value": "518=1eECbbAPpbpORhE0f1K5LG0l2uUl_dE5DbbfV019hdQhVt07uawGt0wzsNBwJN7wkw-cHJnju5RDqjV_p1Z4ulY3CGR8OQas1dwtPlL-UjwDERXbjOZWuU5r8LMHWL2PaEIcqZYImbjyZ1YLHFIvkwvfWGM-DjrfQu6h4urYi084Lgcu60A9LXMVZqTcDCS_nHpH",
+        "version": null
+      }
+    ],
+    "cost": {
+      "details": [
+        {
+          "amount": 5,
+          "code": "DATA_EXTRACTION",
+          "description": "Data Extraction - Extraction Model"
+        },
+        {
+          "amount": 1,
+          "code": "PROXY_DATACENTER_NETWORK",
+          "description": "Proxy Network (Datacenter)"
+        }
+      ],
+      "total": 6
+    },
+    "created_at": "2024-11-06 23:15:06.379328",
+    "debug": null,
+    "env": "TEST",
+    "fingerprint": "1eec1037378ad97ca7c00a9b378d78f3",
+    "headers": [],
+    "is_xml_http_request": false,
+    "job": null,
+    "lang": null,
+    "os": {
+      "distribution": "Intel",
+      "name": "MAC",
+      "type": "desktop",
+      "version": "10_15_7"
+    },
+    "project": "frontend-web-intermediario-nextjs-typescript",
+    "proxy": {
+      "country": "br",
+      "identity": "dba5489e911e4a83a10f6d06724029a8",
+      "network": "datacenter",
+      "pool": "public_datacenter_pool"
+    },
+    "redirects": [],
+    "retry": 0,
+    "schedule": null,
+    "session": null,
+    "spider": null,
+    "throttler": null,
+    "uri": {
+      "base_url": "https://www.google.com",
+      "fragment": null,
+      "host": "www.google.com",
+      "params": null,
+      "port": 443,
+      "query": "q=programa%C3%A7%C3%A3o",
+      "root_domain": "google.com",
+      "scheme": "https"
+    },
+    "url": "https://www.google.com/search?q=programa%C3%A7%C3%A3o",
+    "webhook": null
+  },
+  "insights": null,
+  "result": {
+    "browser_data": {
+      "javascript_evaluation_result": null,
+      "js_scenario": [],
+      "local_storage_data": [],
+      "session_storage_data": [],
+      "websockets": [],
+      "xhr_call": null
+    },
+    "content": "{\"js_data_framework\": {\"data_vars\": {}, \"json\": []}, \"structured_data\": {\"microdata\": [{\"type\": \"http://schema.org/SearchResultsPage\", \"properties\": {\"image\": \"/images/branding/googleg/1x/googleg_standard_color_128dp.png\"}}], \"json-ld\": [], \"open_graph\": []}, \"content\": {\"title\": [{\"tag\": \"title\", \"text\": \"programa\\u00e7\\u00e3o - Google Search\"}], \"h2\": [{\"tag\": \"h2\", \"attributes\": {\"class\": \"bNg8Rb OhScic zsYMMe BBwThe\"}, \"text\": \"Accessibility Links\"}, {\"tag\": \"h2\", \"attributes\": {\"class\": \"bNg8Rb OhScic zsYMMe BBwThe\", \"id\": \"_e_grZ7GgJd2v0-kPj7r72Ac_32\"}, \"text\": \"Complementary Results\"}, {\"tag\": \"h2\", \"attributes\": {\"class\": \"qrShPb garHBe q8U8x aTI8gc\", \"data-attrid\": \"title\", \"data-local-attribute\": \"d3bn\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ3B0oAHoECBMQAQ\"}, \"children\": [{\"tag\": \"span\", \"text\": \"See results about\"}]}], \"a\": [{\"tag\": \"a\", \"attributes\": {\"class\": \"gyPpGe\", \"data-ved\": \"0ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ67oDCAU\", \"jsaction\": \"i3viod\", \"jsname\": \"BKxS1e\", \"role\": \"link\", \"tabindex\": \"0\"}, \"text\": \"Skip to main content\"}, {\"tag\": \"a\", \"attributes\": {\"class\": \"gyPpGe\", \"href\": \"https://support.google.com/websearch/answer/181196?hl=en\", \"jsname\": \"KI37ad\", \"ping\": \"/url?sa=t&source=web&rct=j&url=https://support.google.com/websearch/answer/181196%3Fhl%3Den&ved=0ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQwcMDCAY&bl=BafL&opi=89978449\"}, \"text\": \"Accessibility help\"}, {\"tag\": \"a\", \"attributes\": {\"class\": \"gyPpGe\", \"data-async-trigger\": \"duf3-78\", \"jsaction\": \"trigger.szjOR\", \"jsname\": \"JUypV\", \"role\": \"link\", \"tabindex\": \"0\"}, \"text\": \"Accessibility feedback\"}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Sign in\", \"class\": \"gb_z\", \"href\": \"https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dprograma%25C3%25A7%25C3%25A3o&ec=GAZAAQ\", \"target\": \"_top\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"gb_S\"}, \"text\": \"Sign in\"}]}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECAoQAQ\", \"href\": \"https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/Programa%25C3%25A7%25C3%25A3o_de_computadores&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECAoQAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o de computadores\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"Wikipedia\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://pt.wikipedia.org\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://pt.wikipedia.org/wiki/Programa%25C3%25A7%25C3%25A3o_de_computadores&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://pt.wikipedia.org/wiki/Programa%2525C3%2525A7%2525C3%2525A3o_de_computadores%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAgKEAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECB0QAQ\", \"href\": \"https://tripleten.com.br/blog/o-que-e-programacao-e-como-ela-funciona/\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://tripleten.com.br/blog/o-que-e-programacao-e-como-ela-funciona/&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECB0QAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"O que \\u00e9 Programa\\u00e7\\u00e3o e como ela funciona?\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"TripleTen Brasil\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://tripleten.com.br\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://tripleten.com.br/blog/o-que-e-programacao-e-como-ela-funciona/&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://tripleten.com.br/blog/o-que-e-programacao-e-como-ela-funciona/%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAgdEAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"M3LVze\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ6RN6BAgYEAE\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Computer+programming&si=ACC90nx2Mn92cNzjXmoGBbORrSJuFBAr_aQrb9FCgbm5dMSpdRWD6yRi24NTjWYOXuA-lbKaZFPf-dkdlD-y4iaxpR3TTT7zPGDXdfYR1R90FKJmHB3r_efhV4W-XcmQAJX-ytwh3yC49uGmqzg5FHus8ahV86DWeq9HWdPdX_iPr4cFo5j_2hOi5TlsnX0_gnwzYud2B1XldySOJDY7JEAu5G_QKgAZIL9DJSDAZSz42fpXPxo6TYqruJ52ZxbdOm7gA7bmHFaJKiBmLO8DzNZ96B2jD4GA6A%3D%3D&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ6RN6BAgYEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"y8Jpof pPLc9e kpQuGf\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"nm6nmc kpQuGf\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"k4DMHe\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"RJn8N ellip tNxQIb ynAwRc\"}, \"text\": \"Computer programming (Programa\\u00e7\\u00e3o de computadores)\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"izHQgf cwUqwd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"SwlyWb\"}, \"text\": \"Computer programming or coding is the composition of ...\"}, {\"tag\": \"span\", \"attributes\": {\"class\": \"nmrhhd\"}, \"text\": \"Computer programming or coding is the composition of sequences of instructions, ...\"}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"M3LVze\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ6RN6BAgZEAE\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programming+Language&si=ACC90nx2Mn92cNzjXmoGBbORrSJuFBAr_aQrb9FCgbm5dMSpdc4JTYlPdEWPkJi4Hz3AMD2OKfqlcNO1QOLouctcZ3-TDDquMZvGaJK-LSdEuSdkjnzWUU7lxJhkxK9_Y82x8hDFN7R2Deq2JQZrHbx4Udc-CuDfr89UbbkR6jFdtL59tBcvMgFr67R9peg5C6OBJRp92raRY-tfcCjpCHuRaRuh5fUrRYqfPj2d-EGQ4AnGSkUwu_WWB0BuUKOFCngoAgwPraGdxEyZmYdNuUTenHNa8twBhA%3D%3D&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ6RN6BAgZEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"y8Jpof kpQuGf\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"nm6nmc l0jSyf kpQuGf\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"k4DMHe\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"RJn8N ellip tNxQIb ynAwRc\"}, \"text\": \"Programming language (Linguagem de programa\\u00e7\\u00e3o)\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"cwUqwd\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"zloOqf ellip\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQojh6BAgZEAM\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"w8qArf\"}, \"text\": \"Minecraft\", \"children\": [{\"tag\": \"span\", \"text\": \":\"}]}, {\"tag\": \"span\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"LrzXr kno-fv wHYlTd z8gr9e\"}, \"text\": \"Java\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQtwJ6BAg1EAI\", \"href\": \"https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQtwJ6BAg1EAI\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"O que \\u00e9 Programa\\u00e7\\u00e3o? (v\\u00eddeo)\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"Khan Academy\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd cHaqb\", \"role\": \"text\"}, \"text\": \"https://pt.khanacademy.org\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"O que \\u00e9 Programa\\u00e7\\u00e3o? (v\\u00eddeo) by Khan Academy Brasil on Khan Academy. Play on Khan Academy. 2:20. Sep 15, 2013\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQuAJ6BAg1EAk\", \"href\": \"https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQuAJ6BAg1EAk\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-hidden\": \"true\", \"class\": \"gY2b2c\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"AZJdrc t7VAxe zGXzeb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-hidden\": \"true\", \"class\": \"kSFuOd rkqHyd\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"c8rnLc flgn0c k1U36b zCaigb\"}, \"children\": [{\"tag\": \"span\", \"text\": \"2:20\"}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECD0QAQ\", \"href\": \"https://www.alura.com.br/cursos-online-programacao?srsltid=AfmBOorqzRkpbITtbQznRn_BgJzLcc4N5_tjoGcYGhd6qxbFV6xU1awq\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.alura.com.br/cursos-online-programacao%3Fsrsltid%3DAfmBOorqzRkpbITtbQznRn_BgJzLcc4N5_tjoGcYGhd6qxbFV6xU1awq&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECD0QAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o: Cursos das principais Linguagens\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"Alura\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://www.alura.com.br\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://www.alura.com.br/cursos-online-programacao&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://www.alura.com.br/cursos-online-programacao%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAg9EAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://www.alura.com.br/formacao-programacao\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.alura.com.br/formacao-programacao&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAHoECE8QAQ\"}, \"text\": \"Iniciante em Programa\\u00e7\\u00e3o\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://www.alura.com.br/cursos-online-programacao/python\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.alura.com.br/cursos-online-programacao/python&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAXoECE8QAg\"}, \"text\": \"Python\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://www.alura.com.br/curso-online-flask-crie-webapp-python\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.alura.com.br/curso-online-flask-crie-webapp-python&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAnoECE8QAw\"}, \"text\": \"Curso Flask: crie uma webapp...\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://www.alura.com.br/cursos-online-programacao/java\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.alura.com.br/cursos-online-programacao/java&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoA3oECE8QBA\"}, \"text\": \"Java\"}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDgQAQ\", \"href\": \"https://pt.khanacademy.org/computing/computer-programming\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.khanacademy.org/computing/computer-programming&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDgQAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o de computadores - JavaScript e a web\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"Khan Academy\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://pt.khanacademy.org\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://pt.khanacademy.org/computing/computer-programming&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://pt.khanacademy.org/computing/computer-programming%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAg4EAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAHoECD4QAQ\"}, \"text\": \"Introdu\\u00e7\\u00e3o \\u00e0 programa\\u00e7\\u00e3o\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://pt.khanacademy.org/computing/computer-programming/programming\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.khanacademy.org/computing/computer-programming/programming&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAXoECD4QAg\"}, \"text\": \"Introdu\\u00e7\\u00e3o a JavaScript\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://pt.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-forces/a/newtons-laws-of-motion\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-forces/a/newtons-laws-of-motion&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAnoECD4QAw\"}, \"text\": \"Leis de movimento de Newton\"}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDkQAQ\", \"href\": \"https://ebaconline.com.br/blog/como-aprender-o-basico-de-programacao\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://ebaconline.com.br/blog/como-aprender-o-basico-de-programacao&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDkQAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Como aprender o b\\u00e1sico de programa\\u00e7\\u00e3o\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"EBAC\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://ebaconline.com.br\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://ebaconline.com.br/blog/como-aprender-o-basico-de-programacao&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://ebaconline.com.br/blog/como-aprender-o-basico-de-programacao%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAg5EAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDsQAQ\", \"href\": \"https://tudonumclick.com/programacao-tv/\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://tudonumclick.com/programacao-tv/&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDsQAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Guia Tv e Programas da Televis\\u00e3o\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"TUDONUMCLICK\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://tudonumclick.com\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://tudonumclick.com/programacao-tv/&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://tudonumclick.com/programacao-tv/%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAg7EAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDoQAQ\", \"href\": \"https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/Linguagem_de_programa%25C3%25A7%25C3%25A3o&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDoQAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Linguagem de programa\\u00e7\\u00e3o\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"Wikipedia\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://pt.wikipedia.org\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://pt.wikipedia.org/wiki/Linguagem_de_programa%25C3%25A7%25C3%25A3o&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://pt.wikipedia.org/wiki/Linguagem_de_programa%2525C3%2525A7%2525C3%2525A3o%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAg6EAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programa%C3%A7%C3%A3o\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programa%25C3%25A7%25C3%25A3o&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAHoECEQQAQ\"}, \"text\": \"Lista de linguagens de...\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://pt.wikipedia.org/wiki/Python\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/Python&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAXoECEQQAg\"}, \"text\": \"Python\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://pt.wikipedia.org/wiki/JavaScript\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/JavaScript&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoAnoECEQQAw\"}, \"text\": \"JavaScript\"}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%25C3%25A7%25C3%25A3o)&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0gIoA3oECEQQBA\"}, \"text\": \"Java\"}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"O QUE OS CURSOS DE PROGRAMA\\u00c7\\u00c3O N\\u00c3O TE ENSINAM by Futuro Dev - John  on YouTube. Play on YouTube. 13:46. 8 hours ago\", \"class\": \"xMqpbd NFjGBc\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ9KsOegQINhAB\", \"href\": \"https://www.youtube.com/watch?v=gare-P1m0bE\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3Dgare-P1m0bE&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ9KsOegQINhAB\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"AZJdrc t7VAxe zGXzeb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-hidden\": \"true\", \"class\": \"kSFuOd rkqHyd\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"c8rnLc flgn0c k1U36b zCaigb\"}, \"children\": [{\"tag\": \"span\", \"text\": \"13:46\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"O QUE OS CURSOS DE PROGRAMA\\u00c7\\u00c3O N\\u00c3O TE ENSINAM by Futuro Dev - John  on YouTube. Play on YouTube. 13:46. 8 hours ago\", \"class\": \"xMqpbd\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQwqsBegQINhAF\", \"href\": \"https://www.youtube.com/watch?v=gare-P1m0bE\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3Dgare-P1m0bE&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQwqsBegQINhAF\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-level\": \"3\", \"class\": \"V5XKdd\", \"role\": \"heading\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"ZxS7Db\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"y05Tsc tNxQIb ynAwRc OSrXXb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"cHaqb\"}, \"text\": \"O QUE OS CURSOS DE PROGRAMA\\u00c7\\u00c3O N\\u00c3O TE ENSINAM\"}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"ZtihLe YrbPuc\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"Sg4azc\"}, \"children\": [{\"tag\": \"span\", \"text\": \"YouTube\"}, {\"tag\": \"span\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"aria-hidden\": \"true\"}, \"text\": \"\\u00b7\"}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"OwbDmd\"}, \"children\": [{\"tag\": \"span\", \"text\": \"8 hours ago\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Minha Rotina Estudando Programa\\u00e7\\u00e3o nos EUA \\ud83c\\uddfa\\ud83c\\uddf8 by Pedro Passos on YouTube. Play on Google. 12:49. 8 hours ago\", \"class\": \"xMqpbd NFjGBc\", \"data-hveid\": \"CEYQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ-JQHegQIRhAB\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o\", \"role\": \"button\", \"tabindex\": \"0\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"AZJdrc t7VAxe zGXzeb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-hidden\": \"true\", \"class\": \"kSFuOd rkqHyd\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"c8rnLc flgn0c k1U36b zCaigb\"}, \"children\": [{\"tag\": \"span\", \"text\": \"12:49\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Minha Rotina Estudando Programa\\u00e7\\u00e3o nos EUA \\ud83c\\uddfa\\ud83c\\uddf8 by Pedro Passos on YouTube. Play on YouTube. 12:49. 8 hours ago\", \"class\": \"xMqpbd\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQwqsBegQIRhAG\", \"href\": \"https://www.youtube.com/watch?v=ZaDBl_crrGY\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DZaDBl_crrGY&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQwqsBegQIRhAG\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-level\": \"3\", \"class\": \"V5XKdd\", \"role\": \"heading\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"ZxS7Db\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"y05Tsc tNxQIb ynAwRc OSrXXb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"cHaqb\"}, \"text\": \"Minha Rotina Estudando Programa\\u00e7\\u00e3o nos EUA \\ud83c\\uddfa\\ud83c\\uddf8\"}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"ZtihLe YrbPuc\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"Sg4azc\"}, \"children\": [{\"tag\": \"span\", \"text\": \"YouTube\"}, {\"tag\": \"span\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"aria-hidden\": \"true\"}, \"text\": \"\\u00b7\"}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"OwbDmd\"}, \"children\": [{\"tag\": \"span\", \"text\": \"8 hours ago\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Programa\\u00e7\\u00e3o na pr\\u00e1tica para iniciantes | Livecoding HTML e ... by Rocketseat on YouTube. Play on Google. 2:29:02. 23 hours ago\", \"class\": \"xMqpbd NFjGBc\", \"data-hveid\": \"CDwQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ-JQHegQIPBAB\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o\", \"role\": \"button\", \"tabindex\": \"0\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"AZJdrc t7VAxe zGXzeb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-hidden\": \"true\", \"class\": \"kSFuOd rkqHyd\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"c8rnLc flgn0c k1U36b zCaigb\"}, \"children\": [{\"tag\": \"span\", \"text\": \"2:29:02\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Programa\\u00e7\\u00e3o na pr\\u00e1tica para iniciantes | Livecoding HTML e ... by Rocketseat on YouTube. Play on YouTube. 2:29:02. 23 hours ago\", \"class\": \"xMqpbd\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQwqsBegQIPBAF\", \"href\": \"https://www.youtube.com/watch?v=ixKkaWClWBE\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DixKkaWClWBE&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQwqsBegQIPBAF\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"aria-level\": \"3\", \"class\": \"V5XKdd\", \"role\": \"heading\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"ZxS7Db\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"y05Tsc tNxQIb ynAwRc OSrXXb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"cHaqb\"}, \"text\": \"Programa\\u00e7\\u00e3o na pr\\u00e1tica para iniciantes | Livecoding HTML e ...\"}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"ZtihLe YrbPuc\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"Sg4azc\"}, \"children\": [{\"tag\": \"span\", \"text\": \"YouTube\"}, {\"tag\": \"span\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"aria-hidden\": \"true\"}, \"text\": \"\\u00b7\"}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"OwbDmd\"}, \"children\": [{\"tag\": \"span\", \"text\": \"23 hours ago\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"CHn7Qb pYouzb\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&tbm=vid&q=programa%C3%A7%C3%A3o&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8ccDegQISBAH\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"S8ee5 CwbYXd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"Z4Cazf OSrXXb\"}, \"children\": [{\"tag\": \"span\", \"text\": \"View all\"}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDcQAQ\", \"href\": \"https://mag.sapo.pt/tv/programacao\", \"jsname\": \"UWckNb\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://mag.sapo.pt/tv/programacao&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQFnoECDcQAQ\"}, \"children\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o de TV\"}, {\"tag\": \"div\", \"attributes\": {\"class\": \"notranslate HGLrXd NJjxre iUh30 ojE3Fb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"q0vns\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"idGHzb\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"IvHA0\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"VuuXrf\"}, \"text\": \"SAPO Mag\"}]}]}]}, {\"tag\": \"div\", \"attributes\": {\"class\": \"byrV5b\"}, \"children\": [{\"tag\": \"cite\", \"attributes\": {\"class\": \"tjvcx GvPZzd dTxz9 cHaqb\", \"role\": \"text\"}, \"text\": \"https://mag.sapo.pt\"}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"fl iUh30\", \"href\": \"https://translate.google.com/translate?hl=en&sl=pt&u=https://mag.sapo.pt/tv/programacao&prev=search&pto=aue\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://translate.google.com/translate%3Fhl%3Den%26sl%3Dpt%26u%3Dhttps://mag.sapo.pt/tv/programacao%26prev%3Dsearch%26pto%3Daue&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ7gF6BAg3EAg\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Translate this page\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+Globo&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhUEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"Globo\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+jogo&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhXEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"jogo\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+curso&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhTEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"curso\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+youtube&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhZEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"youtube\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+significado&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhWEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"significado\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+de+computadores&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhQEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"de computadores\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+online&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhNEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"online\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"ngTNl ggLgoc\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=Programa%C3%A7%C3%A3o+SBT&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ1QJ6BAhHEAE\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"B2VR9 CJHX3e\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"wyccme\"}, \"children\": [{\"tag\": \"div\", \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"oatEtb\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"mtv5bd\"}, \"children\": [{\"tag\": \"span\", \"attributes\": {\"class\": \"dg6jd\"}, \"text\": \"Programa\\u00e7\\u00e3o\", \"children\": [{\"tag\": \"b\", \"text\": \"SBT\"}]}]}]}]}]}]}]}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 2\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=10&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAE\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 3\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=20&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAG\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 4\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=30&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAI\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 5\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=40&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAK\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 6\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=50&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAM\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 7\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=60&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAO\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 8\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=70&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAQ\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 9\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=80&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAS\"}}, {\"tag\": \"a\", \"attributes\": {\"aria-label\": \"Page 10\", \"class\": \"fl\", \"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=90&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8tMDegQIWBAU\"}}, {\"tag\": \"a\", \"attributes\": {\"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=10&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8NMDegQIWBAW\", \"id\": \"pnnext\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Next\"}]}, {\"tag\": \"a\", \"attributes\": {\"aria-current\": \"page\", \"aria-disabled\": \"true\", \"class\": \"nPDzT\", \"data-hveid\": \"CBwQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ2Z0MegQIHBAB\", \"role\": \"link\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"YmvwI\", \"jsname\": \"bVqjv\"}, \"text\": \"All\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"nPDzT T3FoJb\", \"data-hveid\": \"CBsQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQtKgLegQIGxAB\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=programa%C3%A7%C3%A3o&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQtKgLegQIGxAB\", \"jsname\": \"VIftV\", \"role\": \"link\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"YmvwI\", \"jsname\": \"bVqjv\"}, \"text\": \"Images\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"LatpMc nPDzT T3FoJb\", \"data-hveid\": \"CBQQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0pQJegQIFBAB\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=programa%C3%A7%C3%A3o&tbm=nws&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0pQJegQIFBAB\", \"jsname\": \"VIftV\", \"role\": \"link\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"YmvwI\", \"jsname\": \"bVqjv\"}, \"text\": \"News\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"LatpMc nPDzT T3FoJb\", \"data-hveid\": \"CBYQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0pQJegQIFhAB\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=programa%C3%A7%C3%A3o&tbm=vid&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ0pQJegQIFhAB\", \"jsname\": \"VIftV\", \"role\": \"link\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"YmvwI\", \"jsname\": \"bVqjv\"}, \"text\": \"Videos\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"nPDzT T3FoJb\", \"data-hveid\": \"CBUQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQj7gNegQIFRAB\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=programa%C3%A7%C3%A3o&udm=28&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA&ved=1t:220175&ictx=111\", \"jsname\": \"VIftV\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=/search%3Fsca_esv%3Dacf2ca49e71d5b78%26q%3Dprograma%25C3%25A7%25C3%25A3o%26udm%3D28%26fbs%3DAEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA%26ved%3D1t:220175%26ictx%3D111&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQj7gNegQIFRAB\", \"role\": \"link\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"YmvwI\", \"jsname\": \"bVqjv\"}, \"text\": \"Shopping\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"nPDzT T3FoJb\", \"data-hveid\": \"CBIQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQs6gLegQIEhAB\", \"href\": \"https://www.google.com/search?sca_esv=acf2ca49e71d5b78&q=programa%C3%A7%C3%A3o&udm=18&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA&sa=X&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQs6gLegQIEhAB\", \"jsname\": \"VIftV\", \"role\": \"link\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"YmvwI\", \"jsname\": \"bVqjv\"}, \"text\": \"Forums\"}]}, {\"tag\": \"a\", \"attributes\": {\"class\": \"LatpMc nPDzT T3FoJb\", \"data-hveid\": \"CBEQAQ\", \"data-ved\": \"2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQi6AMegQIERAB\", \"href\": \"https://maps.google.com/maps?sca_esv=acf2ca49e71d5b78&output=search&q=programa%C3%A7%C3%A3o&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA&entry=mc&ved=1t:200715&ictx=111\", \"jsname\": \"VIftV\", \"ping\": \"/url?sa=t&source=web&rct=j&opi=89978449&url=https://maps.google.com/maps%3Fsca_esv%3Dacf2ca49e71d5b78%26output%3Dsearch%26q%3Dprograma%25C3%25A7%25C3%25A3o%26source%3Dlnms%26fbs%3DAEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BfRFWcyM5BvpTgNzM3vKj4sEjS6haKlrdzONTHhmt-ed1AL2sEA2xDA0c_J9ch7a-5Qf-GQSPTFAQP9bunwVRLfsfdPVs048YIsbW24qYhdmMChgrcloFN1BNdp3w68rVoF7EDu-kuTO1e1rnHsswpnEQOibA%26entry%3Dmc%26ved%3D1t:200715%26ictx%3D111&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQi6AMegQIERAB\", \"role\": \"link\"}, \"children\": [{\"tag\": \"div\", \"attributes\": {\"class\": \"YmvwI\", \"jsname\": \"bVqjv\"}, \"text\": \"Maps\"}]}], \"h1\": [{\"tag\": \"h1\", \"attributes\": {\"class\": \"bNg8Rb OhScic zsYMMe BBwThe\"}, \"text\": \"Search Results\"}, {\"tag\": \"h1\", \"attributes\": {\"class\": \"bNg8Rb OhScic zsYMMe BBwThe\"}, \"text\": \"Page Navigation\"}, {\"tag\": \"h1\", \"attributes\": {\"class\": \"bNg8Rb OhScic zsYMMe BBwThe\", \"id\": \"_e_grZ7GgJd2v0-kPj7r72Ac_33\"}, \"text\": \"Filters and Topics\"}, {\"tag\": \"h1\", \"attributes\": {\"class\": \"bNg8Rb OhScic zsYMMe BBwThe\"}, \"text\": \"Footer Links\"}], \"h3\": [{\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o de computadores\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"O que \\u00e9 Programa\\u00e7\\u00e3o e como ela funciona?\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"O que \\u00e9 Programa\\u00e7\\u00e3o? (v\\u00eddeo)\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o: Cursos das principais Linguagens\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o de computadores - JavaScript e a web\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Como aprender o b\\u00e1sico de programa\\u00e7\\u00e3o\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Guia Tv e Programas da Televis\\u00e3o\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Linguagem de programa\\u00e7\\u00e3o\"}, {\"tag\": \"h3\", \"attributes\": {\"class\": \"LC20lb MBeuO DKV0Md\"}, \"text\": \"Programa\\u00e7\\u00e3o de TV\"}], \"table\": [{\"tag\": \"table\", \"attributes\": {\"class\": \"AaVjTc\", \"role\": \"presentation\"}, \"children\": [{\"tag\": \"tr\", \"attributes\": {\"jsname\": \"TeSSVd\", \"valign\": \"top\"}, \"children\": [{\"tag\": \"td\", \"attributes\": {\"aria-level\": \"3\", \"class\": \"d6cvqb BBwThe\", \"role\": \"heading\"}, \"children\": [{\"tag\": \"a\", \"attributes\": {\"href\": \"https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=10&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8NMDegQIWBAW\", \"id\": \"pnnext\"}, \"children\": [{\"tag\": \"span\", \"text\": \"Next\"}]}]}]}], \"data\": {}}]}}",
+    "content_encoding": "utf-8",
+    "content_format": "raw",
+    "content_type": "application/json",
+    "cookies": [
+      {
+        "comment": null,
+        "domain": "www.google.com",
+        "expires": null,
+        "http_only": null,
+        "max_age": null,
+        "name": "SOCS",
+        "path": "/",
+        "secure": null,
+        "size": null,
+        "value": "CAISNQgEEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMxMTI4LjA2X3AyGgJlbiACGgYIgMSkqwY",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": "www.google.com",
+        "expires": null,
+        "http_only": null,
+        "max_age": null,
+        "name": "1P_JAR",
+        "path": "/",
+        "secure": null,
+        "size": null,
+        "value": "2024-11-06-23",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": "www.google.com",
+        "expires": null,
+        "http_only": null,
+        "max_age": null,
+        "name": "CONSENT",
+        "path": "/",
+        "secure": null,
+        "size": null,
+        "value": "YES+cb.2024-11-6-23-p0.en+FX+846",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": ".google.com",
+        "expires": "1970-01-01 00:00:00",
+        "http_only": false,
+        "max_age": null,
+        "name": "1P_JAR",
+        "path": "/",
+        "secure": true,
+        "size": 122,
+        "value": "2024-11-06-23",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": ".google.com",
+        "expires": "2025-05-05 23:15:07",
+        "http_only": true,
+        "max_age": null,
+        "name": "AEC",
+        "path": "/",
+        "secure": true,
+        "size": 174,
+        "value": "AVYB7crMgu9HKD3eMcMcnJ8RvOOnkIlF101VU0Hk-3bsEBgvJ3gf8KNR9kU",
+        "version": null
+      },
+      {
+        "comment": null,
+        "domain": ".google.com",
+        "expires": "2025-05-08 23:15:07",
+        "http_only": true,
+        "max_age": null,
+        "name": "NID",
+        "path": "/",
+        "secure": true,
+        "size": 316,
+        "value": "518=1eECbbAPpbpORhE0f1K5LG0l2uUl_dE5DbbfV019hdQhVt07uawGt0wzsNBwJN7wkw-cHJnju5RDqjV_p1Z4ulY3CGR8OQas1dwtPlL-UjwDERXbjOZWuU5r8LMHWL2PaEIcqZYImbjyZ1YLHFIvkwvfWGM-DjrfQu6h4urYi084Lgcu60A9LXMVZqTcDCS_nHpH",
+        "version": null
+      }
+    ],
+    "data": null,
+    "dns": null,
+    "duration": 7.85,
+    "error": null,
+    "extracted_data": {
+      "content_type": "application/json",
+      "data": {
+        "ads": [],
+        "associatedSearches": [
+          "Programação**Globo**",
+          "Programação**jogo**",
+          "Programação**curso**",
+          "Programação**youtube**",
+          "Programação**significado**",
+          "Programação**de computadores**",
+          "Programação**online**",
+          "Programação**SBT**"
+        ],
+        "geolocationWidget": null,
+        "informationWidget": null,
+        "nextPage": {
+          "nextUrl": "https://www.google.com/search?q=programa%C3%A7%C3%A3o&sca_esv=acf2ca49e71d5b78&ei=e_grZ7GgJd2v0-kPj7r72Ac&start=10&sa=N&sstk=AagrsuhgYp4VcM0ImliVtUHPW-xojEicZ-X-SsXxplxx58bCjCRDzPsaZNB3tYOogR4MZ9bTHA5694g63Ayp70VD6-zSigfDQQqdeQ&ved=2ahUKEwjxybCC68iJAxXd1zQHHQ_dHnsQ8NMDegQIWBAW"
+        },
+        "pages": [],
+        "query": "programação",
+        "results": [
+          {
+            "displayUrl": "pt.wikipedia.org",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "Programação é o processo de escrita, teste e manutenção de um programa de computador . O programa é escrito em uma linguagem de programação, ...",
+            "title": "Programação de computadores - Wikipédia",
+            "url": "https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores"
+          },
+          {
+            "displayUrl": "tripleten.com.br",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "Descubra o essencial da programação neste guia , explorando conceitos fundamentais como linguagens (Python, JavaScript), código-fonte, algoritmos e ...",
+            "title": "O que é Programação e como ela funciona? - TripleTen Brasil",
+            "url": "https://tripleten.com.br/blog/o-que-e-programacao-e-como-ela-funciona/"
+          },
+          {
+            "displayUrl": "pt.khanacademy.org",
+            "publishDate": "2013-09-15",
+            "richSnippet": null,
+            "snippet": "Programação é o processo de criação de um conjunto de instruções que dizem ao computador como realizar uma tarefa. Podemos programar usando ...",
+            "title": "O que é Programação? (vídeo) - Khan Academy",
+            "url": "https://pt.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro"
+          },
+          {
+            "displayUrl": "www.alura.com.br",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "Programe nas principais linguagens e plataformas. Explore plataformas como Python, Node.JS, PHP, Java, e .NET a fundo, além de muito conteúdo em outras ...",
+            "title": "Programação: Cursos das principais Linguagens - Alura",
+            "url": "https://www.alura.com.br/cursos-online-programacao?srsltid=AfmBOorqzRkpbITtbQznRn_BgJzLcc4N5_tjoGcYGhd6qxbFV6xU1awq"
+          },
+          {
+            "displayUrl": "pt.khanacademy.org",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "Nossa missão é oferecer uma educação gratuita e de alta qualidade para qualquer pessoa, em qualquer lugar. A Khan Academy é uma organização sem fins ...",
+            "title": "Programação de computadores - JavaScript e a web - Khan Academy",
+            "url": "https://pt.khanacademy.org/computing/computer-programming"
+          },
+          {
+            "displayUrl": "ebaconline.com.br",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "Como aprender o básico de programação? Os 4 pilares da programação ; decomposição; reconhecimento de padrões; abstração; algoritmo; pseudocódigo; tipos de ...",
+            "title": "Como aprender o básico de programação - EBAC",
+            "url": "https://ebaconline.com.br/blog/como-aprender-o-basico-de-programacao"
+          },
+          {
+            "displayUrl": "tudonumclick.com",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "Grelha de programação de todos os canais em Portugal . Horário dos programas, telenovelas, séries e filmes.",
+            "title": "Guia Tv e Programas da Televisão - TUDONUMCLICK",
+            "url": "https://tudonumclick.com/programacao-tv/"
+          },
+          {
+            "displayUrl": "pt.wikipedia.org",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que ...",
+            "title": "Linguagem de programação - Wikipédia",
+            "url": "https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o"
+          },
+          {
+            "displayUrl": "mag.sapo.pt",
+            "publishDate": null,
+            "richSnippet": null,
+            "snippet": "Diário Da Manhã. 06:15-09:55 · Dois às 10. 09:55-12:58 · TVI Jornal. 12:58-14:00 · TVI - Em Cima da Hora. 14:00-14:30 · A Sentença. 14:30-16:25 · A Herdeira - ...",
+            "title": "Programação de TV - SAPO Mag",
+            "url": "https://mag.sapo.pt/tv/programacao"
+          }
+        ],
+        "socialAccounts": [],
+        "totalResults": 328000000
+      },
+      "data_quality": {
+        "errors": [],
+        "fulfilled": true,
+        "fulfillment_percent": 80
+      }
+    },
+    "format": "text",
+    "iframes": [],
+    "log_url": "https://scrapfly.io/dashboard/monitoring/log/01JC1W57C86600ZAC2BJ49F5V6",
+    "reason": "OK",
+    "request_headers": {
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-IN,en;q=0.9,en-US;q=0.8",
+      "cookie": "SOCS=CAISNQgEEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMxMTI4LjA2X3AyGgJlbiACGgYIgMSkqwY; 1P_JAR=2024-11-06-23; CONSENT=YES+cb.2024-11-6-23-p0.en+FX+846",
+      "host": "www.google.com",
+      "priority": "u=0, i",
+      "sec-ch-ua": "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+    },
+    "response_headers": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private, max-age=0",
+      "content-encoding": "br",
+      "content-security-policy": "object-src 'none';base-uri 'self';script-src 'nonce-UhzgIzJ5Szdq-oOf_mnTzQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/cdt1",
+      "content-type": "text/html; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Wed, 06 Nov 2024 23:15:07 GMT",
+      "expires": "-1",
+      "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/cdt1\"}]}",
+      "server": "gws",
+      "set-cookie": "1P_JAR=2024-11-06-23; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/; domain=.google.com; Secure; SameSite=none, AEC=AVYB7crMgu9HKD3eMcMcnJ8RvOOnkIlF101VU0Hk-3bsEBgvJ3gf8KNR9kU; expires=Mon, 05-May-2025 23:15:07 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=518=1eECbbAPpbpORhE0f1K5LG0l2uUl_dE5DbbfV019hdQhVt07uawGt0wzsNBwJN7wkw-cHJnju5RDqjV_p1Z4ulY3CGR8OQas1dwtPlL-UjwDERXbjOZWuU5r8LMHWL2PaEIcqZYImbjyZ1YLHFIvkwvfWGM-DjrfQu6h4urYi084Lgcu60A9LXMVZqTcDCS_nHpH; expires=Thu, 08-May-2025 23:15:07 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none",
+      "strict-transport-security": "max-age=31536000",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "screenshots": [],
+    "size": 0,
+    "ssl": null,
+    "status": "DONE",
+    "status_code": 200,
+    "success": true,
+    "url": "https://www.google.com/search?q=programa%C3%A7%C3%A3o"
+  },
+  "uuid": "01JC1W57C86600ZAC2BJ49F5V6"
+}
