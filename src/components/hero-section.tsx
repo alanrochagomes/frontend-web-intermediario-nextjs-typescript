@@ -39,7 +39,7 @@ export default function HeroSection() {
 
           <input
             type="submit"
-            className="bg-indigo-500 text-white px-4 rounded-lg hover:bg-indigo-400"
+            className="bg-indigo-500 text-white px-4 rounded-lg hover:bg-indigo-400 cursor-pointer"
             value="Search"
           />
         </form>
