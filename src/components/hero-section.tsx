@@ -1,5 +1,22 @@
+"use client";
+
+import { FormEvent } from "react";
+
 export default function HeroSection() {
-  // const onSubmit = () => {}
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const response = await fetch("/api/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    // TODO: Implement response handling
+    console.log("client", { data });
+  }
 
   return (
     <section className="flex flex-col items-center">
@@ -12,17 +29,19 @@ export default function HeroSection() {
           A New Era for Interactive Education
         </h1>
 
-        <form className="flex gap-2 text-black w-full">
+        <form className="flex gap-2 text-black w-full" onSubmit={onSubmit}>
           <input
             type="text"
+            name="search_input"
             placeholder="Search for learning resources, tutorials..."
-            className="border-2 border-black px-2 py-1 w-full rounded-lg"
+            className="border-2 border-gray-300 px-2 py-1 w-full rounded-lg"
           />
+
           <input
             type="submit"
-            className="bg-indigo-500 text-white px-2 rounded-lg hover:bg-indigo-400"
+            className="bg-indigo-500 text-white px-4 rounded-lg hover:bg-indigo-400"
             value="Search"
-          ></input>
+          />
         </form>
 
         {/* <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
