@@ -20,11 +20,14 @@ export default function HeroSection() {
 
         <SearchForm onSearchResultsReady={setSearchResults} />
 
+        {/* TODO: Exercício - realizar a extração do componente de Lista e de Card */}
         {/* Search Result List */}
         <div className="text-black my-8 w-full">
           <h2 className="text-lg font-bold">Search Results</h2>
 
           <div className="flex flex-col my-4 gap-4">
+            {searchResults.length === 0 && <div>No results found.</div>}
+
             {/* Search Result Card */}
             {searchResults.map((searchResult, index) => (
               <a
