@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SearchResult } from "@/model/SearchResult";
 // import searchResultsMock from "@/api-response-mock/search-results.json";
+import { SearchResult } from "@/model/SearchResult";
+import { SearchResultApi } from "@/model/SearchResultApi";
 // import { ScrapflyClient, ScrapeConfig } from "scrapfly-sdk";
 
 // const key = process.env.SCRAPFLY_API_KEY ?? "";
@@ -28,9 +29,7 @@ export async function POST(
     const searchResultsApi = result.result.extracted_data.data.results;
 
     const searchResults: SearchResult[] = searchResultsApi.map(
-      // TODO: Remove `any` by adding type for SearchResultApi
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (searchResultApi: any) => ({
+      (searchResultApi: SearchResultApi) => ({
         displayUrl: searchResultApi.displayUrl,
         text: searchResultApi.snippet,
         title: searchResultApi.title,
