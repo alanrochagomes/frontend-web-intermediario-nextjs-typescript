@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-// import searchResultsMock from "@/api-response-mock/search-results.json";
 import { SearchResult } from "@/model/SearchResult";
 import { SearchResultApi } from "@/model/SearchResultApi";
+
 // import { ScrapflyClient, ScrapeConfig } from "scrapfly-sdk";
+
+// import searchResultsMock from "@/api-response-mock/search-results.json";
 
 // const key = process.env.SCRAPFLY_API_KEY ?? "";
 // const client = new ScrapflyClient({ key });
@@ -26,7 +28,9 @@ export async function POST(
 
     const response = await fetch(url);
     const result = await response.json();
-    const searchResultsApi = result.result.extracted_data.data.results;
+    // const result = searchResultsMock;
+    const searchResultsApi: SearchResultApi[] =
+      result.result.extracted_data.data.results;
 
     const searchResults: SearchResult[] = searchResultsApi.map(
       (searchResultApi: SearchResultApi) => ({

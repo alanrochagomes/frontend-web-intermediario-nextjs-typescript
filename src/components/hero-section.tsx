@@ -1,23 +1,11 @@
 "use client";
 
 import { SearchResult } from "@/model/SearchResult";
-import { FormEvent, useState } from "react";
+import { useState } from "react";
+import SearchForm from "./search-form";
 
 export default function HeroSection() {
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
-
-  async function onSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-
-    const formData = new FormData(event.currentTarget);
-    const response = await fetch("/api/submit", {
-      method: "POST",
-      body: formData,
-    });
-
-    const data: SearchResult[] = await response.json();
-    setSearchResults(data);
-  }
 
   return (
     <section className="flex flex-col items-center">
@@ -30,20 +18,7 @@ export default function HeroSection() {
           A New Era for Interactive Education
         </h1>
 
-        <form className="flex gap-2 text-black w-full" onSubmit={onSubmit}>
-          <input
-            type="text"
-            name="search_input"
-            placeholder="Search for learning resources, tutorials..."
-            className="border-2 border-gray-300 px-2 py-1 w-full rounded-lg"
-          />
-
-          <input
-            type="submit"
-            className="bg-indigo-500 text-white px-4 rounded-lg hover:bg-indigo-400 cursor-pointer"
-            value="Search"
-          />
-        </form>
+        <SearchForm onSearchResultsReady={setSearchResults} />
 
         {/* Search Result List */}
         <div className="text-black my-8 w-full">
