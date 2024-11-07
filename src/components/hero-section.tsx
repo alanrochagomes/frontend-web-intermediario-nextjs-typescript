@@ -16,10 +16,6 @@ export default function HeroSection() {
     });
 
     const data: SearchResult[] = await response.json();
-
-    // TODO: Implement response handling
-    console.log("client", { data });
-
     setSearchResults(data);
   }
 

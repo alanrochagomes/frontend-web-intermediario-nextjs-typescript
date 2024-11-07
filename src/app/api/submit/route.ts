@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import searchResultsMock from "@/api-response-mock/search-results.json";
 import { SearchResult } from "@/model/SearchResult";
+// import searchResultsMock from "@/api-response-mock/search-results.json";
 // import { ScrapflyClient, ScrapeConfig } from "scrapfly-sdk";
 
 // const key = process.env.SCRAPFLY_API_KEY ?? "";
@@ -10,43 +10,50 @@ export async function POST(
   request: NextRequest
 ): Promise<NextResponse<SearchResult[]>> {
   const data = await request.formData();
+  const [firstEntry] = data.entries();
+  // TODO: Improve this because "1" isn't the best way to get search input value
+  const searchInput = firstEntry[1];
 
-  // TODO: Implement form submission
-  console.log("server", data);
-
-  const query: string = "programação";
+  const query: string = String(searchInput);
 
   try {
     const key = process.env.SCRAPFLY_API_KEY;
     const searchUrl = `https://www.google.com.br/search?q=${encodeURIComponent(
       query
     )}`;
-    const url = `https://api.scrapfly.io/scrape?tags=player%2Cproject%3Afrontend-web-intermediario-nextjs-typescript&format=json&extraction_model=search_engine_results&country=br&asp=true&key=${key}&url=${searchUrl}`;
+    const url = `https://api.scrapfly.io/scrape?tags=player%2Cproject%3Asmart-assistant-library-frontend-web-intermediario-nextjs-typescript&format=json&extraction_model=search_engine_results&country=br&asp=true&key=${key}&url=${searchUrl}`;
 
-    // const response = await fetch(url);
-
-    // const result = await response.json();
-
-    const result = searchResultsMock;
-
+    const response = await fetch(url);
+    const result = await response.json();
     const searchResultsApi = result.result.extracted_data.data.results;
 
-    console.log("searchResults", searchResultsApi);
+    const searchResults: SearchResult[] = searchResultsApi.map(
+      // TODO: Remove `any` by adding type for SearchResultApi
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (searchResultApi: any) => ({
+        displayUrl: searchResultApi.displayUrl,
+        text: searchResultApi.snippet,
+        title: searchResultApi.title,
+        url: searchResultApi.url,
+      })
+    );
 
-    const searchResults: SearchResult[] = [
-      {
-        displayUrl: "pt.wikipedia.org",
-        text: "Programação é o processo de escrita, teste e manutenção de um programa de computador . O programa é escrito em uma linguagem de programação, ...",
-        title: "Programação de computadores - Wikipédia",
-        url: "https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores",
-      },
-      {
-        displayUrl: "pt.wikipedia.org",
-        text: "Programação é o processo de escrita, teste e manutenção de um programa de computador . O programa é escrito em uma linguagem de programação, ...",
-        title: "Programação de computadores - Wikipédia",
-        url: "https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores",
-      },
-    ];
+    // Uncomment to use mock value
+    // const result = searchResultsMock;
+    // const searchResults: SearchResult[] = [
+    //   {
+    //     displayUrl: "pt.wikipedia.org",
+    //     text: "Programação é o processo de escrita, teste e manutenção de um programa de computador . O programa é escrito em uma linguagem de programação, ...",
+    //     title: "Programação de computadores - Wikipédia",
+    //     url: "https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores",
+    //   },
+    //   {
+    //     displayUrl: "pt.wikipedia.org",
+    //     text: "Programação é o processo de escrita, teste e manutenção de um programa de computador . O programa é escrito em uma linguagem de programação, ...",
+    //     title: "Programação de computadores - Wikipédia",
+    //     url: "https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores",
+    //   },
+    // ];
 
     return NextResponse.json(searchResults);
 
