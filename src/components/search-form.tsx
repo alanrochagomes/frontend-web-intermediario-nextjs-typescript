@@ -19,8 +19,13 @@ export default function SearchForm(props: SearchFormProps) {
       body: formData,
     });
 
-    const data: SearchResult[] = await response.json();
-    props.onSearchResultsReady(data);
+    if (response.status === 200) {
+      const data: SearchResult[] = await response.json();
+      props.onSearchResultsReady(data);
+    } else {
+      // TODO: Implement toastify to show a beautiful error message
+      alert("Ocorreu um erro na busca. Tente novamente mais tarde.");
+    }
 
     setIsLoading(false);
   }
