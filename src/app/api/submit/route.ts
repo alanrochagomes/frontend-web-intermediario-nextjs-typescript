@@ -6,7 +6,9 @@ import { SearchResult } from "@/model/SearchResult";
 // const key = process.env.SCRAPFLY_API_KEY ?? "";
 // const client = new ScrapflyClient({ key });
 
-export async function POST(request: NextRequest) {
+export async function POST(
+  request: NextRequest
+): Promise<NextResponse<SearchResult[]>> {
   const data = await request.formData();
 
   // TODO: Implement form submission
@@ -66,6 +68,4 @@ export async function POST(request: NextRequest) {
     console.error("Erro ao buscar dados da API:", error);
     throw new Error("Falha na busca, tente novamente.");
   }
-
-  return NextResponse.json({ teste: 1 });
 }

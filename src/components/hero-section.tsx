@@ -1,8 +1,11 @@
 "use client";
 
-import { FormEvent } from "react";
+import { SearchResult } from "@/model/SearchResult";
+import { FormEvent, useState } from "react";
 
 export default function HeroSection() {
+  const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
+
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -12,10 +15,12 @@ export default function HeroSection() {
       body: formData,
     });
 
-    const data = await response.json();
+    const data: SearchResult[] = await response.json();
 
     // TODO: Implement response handling
     console.log("client", { data });
+
+    setSearchResults(data);
   }
 
   return (
@@ -43,6 +48,26 @@ export default function HeroSection() {
             value="Search"
           />
         </form>
+
+        {/* Search Result List */}
+        <div className="text-black my-8 w-full">
+          <h2 className="text-lg font-bold">Search Results</h2>
+
+          <div className="flex flex-col my-4 gap-4">
+            {/* Search Result Card */}
+            {searchResults.map((searchResult, index) => (
+              <a
+                href={searchResult.url}
+                key={`searchResult_${index}`}
+                className="flex flex-col p-2 border rounded-lg shadow text-left hover:bg-gray-100"
+              >
+                <h3 className="font-bold">{searchResult.title}</h3>
+                <p>{searchResult.text}</p>
+                <small>{searchResult.displayUrl}</small>
+              </a>
+            ))}
+          </div>
+        </div>
 
         {/* <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
           <a
